@@ -1,0 +1,36 @@
+{
+  "name": "wrainbo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "npm-run-all": "^4.1.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "start-js": "concurrently \"node server/index.js\" \"set PORT=3002 && react-scripts start\"",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
+    "concurrently": "^3.5.0",
+    "create-react-class": "^15.6.2",
+    "csvtojson": "^1.1.9",
+    "express": "^4.16.2",
+    "json2csv": "^3.11.4",
+    "node-sass-chokidar": "0.0.3",
+    "prop-types": "^15.6.0",
+    "react-bootstrap": "^0.31.3",
+    "react-bootstrap-table": "^4.1.0",
+    "react-data-grid-addons": "^2.0.60",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  }
+}

@@ -1,0 +1,41 @@
+Scene_ID,ID,Group,Type,Stakeholder,Animation,Constraint,Effect,Main Value
+story_wt.1,u_story_wt.1,st-1-1,TEXT,stakeholder.4,Talk,,,"Rumour has it that you’re proposing to invest in a Northern Desert plant. I’m all for innovation, but I hope you realize it could be a risky project."
+story_wt.1,u_story_wt.2,st-1-2,TEXT,sh.player,,,,"Yeah, I see the risk, but the bigger risk is falling behind. We’re not the only players on the field. If we don’t act now we could lose the first mover advantage and our leadership position. The biggest risk is not to act."
+story_wt.1,u_story_wt.3,st-1-3,TEXT,stakeholder.4,Talk,,,"I hear where you’re coming from. But I’m not the only one you’ll have to convince. I’ve arranged a meeting with you and some key stakeholders in three days’ time. Knowing Oliver, if you want his support you’ll have to get those stakeholders’ buy-ins first."
+story_wt.1,u_story_wt.4,st-1-4,TEXT,stakeholder.4,Talk,,,Do you think you’re ready to present your idea at this meeting? It’s not going to be easy.
+story_wt.1,u_story_wt.5,st-1-6,CHOICE,stakeholder.4,,,,choice_1
+story_wt.1,u_story_wt.6,st-1-7,TEXT,stakeholder.4,ConcernTalk,attribute.0 = 1,attribute.2 + 20,I’m glad to see your passion. But winning over the other stakeholders is going to be tough.
+story_wt.1,u_story_wt.7,st-1-7,TEXT,stakeholder.4,Talk,attribute.0 = 2,attribute.1 - 40,I’m glad you’re thinking about that. Getting their support is going to be tough.
+story_wt.1,u_story_wt.8,st-1-7-5,TEXT,stakeholder.4,Talk,,,"You need to have some real political savvy to get their support and make this happen. I suggest you don’t just push your own ideas, but start by understanding each of their agendas."
+story_wt.1,u_story_wt.9,st-1-8,TEXT,sh.player,,,,Good point. I have to be careful not to get ahead of myself. So who exactly will be in this meeting?
+story_wt.1,u_story_wt.10,st-1-9,TEXT,stakeholder.4,Talk,,,"Obviously Jane the CFO, and Anthony the COO. Without them it’s a non-starter. In terms of discussing actual implementation I’ve invited Avi from IT and Yuna from HR. So you have both strategy people and implementation people."
+story_wt.1,u_story_wt.11,st-1-10,CHOICE,stakeholder.4,,,,choice_2
+story_wt.1,u_story_wt.12,st-1-11,TEXT,stakeholder.4,Talk,attribute.0 = 1,attribute.1 + 60,"Perhaps. But you’ve got to be careful. They’re all coming from a different place. Some of them have C-Suite authority, and some have influence, which is a different type of power. So having them all in the same room will be challenging."
+story_wt.1,u_story_wt.13,st-1-11,TEXT,stakeholder.4,Talk,attribute.0 = 2,attribute.1 - 10,"Exactly, that’s the real challenge. Some of these folks have the authority to green light or kill the project. Others may not have the authority but still have a lot of influence. Knowing the difference is going to be important to get their buy-in."
+story_wt.1,u_story_wt.14,st-1-12,TEXT,sh.player,,,,"So, including you, there’ll be five people in the meeting?"
+story_wt.1,u_story_wt.15,st-1-13,TEXT,stakeholder.4,Talk,,,"Actually, six. I forgot to mention that our General Counsel, Brittney, will also be in the meeting. Her opinions are well respected by everyone, and she’s an expert when it comes to navigating between different interest groups."
+story_wt.1,u_story_wt.16,st-1-14,TEXT,stakeholder.4,Talk,,,Let me make a suggestion. Take an hour a day over the next three days and have a one-on-one meeting with some of the stakeholders. Question for you: who would you prioritize to meet with first?
+story_wt.1,u_story_wt.17,st-1-15,CHOICE,stakeholder.4,,,,choice_3
+story_wt.1,u_story_wt.18,st-1-16,TEXT,stakeholder.4,Concern-Talk,attribute.0 = 1,attribute.1 + 30,"Jane is important, but I’d suggest you talk to Brittney first. As I mentioned, Brittney’s opinions are well respected by everyone. Plus, she could give you some tips on how the other stakeholders may react to your ideas."
+story_wt.1,u_story_wt.19,st-1-16,TEXT,stakeholder.4,ConcernTalk,attribute.0 = 2,attribute.1 - 34,"Anthony is important, but I’d suggest you talk to Brittney first. As I mentioned, Brittney’s opinions are well respected by everyone. Plus, she could give you some tips on how the other stakeholders may react to your ideas."
+story_wt.1,u_story_wt.20,st-1-16,TEXT,stakeholder.4,Talk,attribute.0 = 3,attribute.1 + 86,"That’s a good idea. As I mentioned, Brittney’s opinions are well respected by everyone. Plus, she could give you some tips on how the other stakeholders may react to your ideas."
+story_wt.1,u_story_wt.21,st-1-16,TEXT,stakeholder.4,Concern-Talk,attribute.0 = 4,attribute.2 - 40,"They’re important, but I’d suggest you talk to Brittney first. As I mentioned, Brittney’s opinions are well respected by everyone. Plus, she could give you some tips on how the other stakeholders may react to your ideas."
+story_wt.1,u_story_wt.22,st-1-17,TEXT,sh.player,,,,Sounds great. But I still can’t help worrying about what Oliver thinks about the Northern Desert Project?
+story_wt.1,u_story_wt.23,st-1-18,TEXT,stakeholder.4,Talk,,,"It’s not easy to predict Oliver’s reaction. What you have to do now is to get the other stakeholders on board. Believe me, you get them and you have a good chance of getting Oliver."
+story_wt.1,u_story_wt.24,st-1-19,TEXT,stakeholder.4,Talk,,,"You believe in your idea. Now you need to be politically smart. As we both know, good ideas are not enough here. I’ve seen you do things like this for 3 years. Just focus on the right things and you have a good chance of pulling this off."
+story_wt.1,u_story_wt.25,st-1-20,TEXT,sh.player,,,,"Thanks, Ken. I really appreciate it. I’ll start by having three one-to-one meetings over the next three days."
+story_wt.1,u_story_wt.26,st-1-21,MEETING,,,,,
+,,,,,,,,
+story_wt.2-1,u_story_wt.28,st-2-1-1,TEXT,stakeholder.7,Smile-Talk,,,"So, Ken was telling me about your Northern Desert project. Building a plant! That’s one heck of a challenge."
+story_wt.2-1,u_story_wt.29,st-2-1-2,CHOICE,stakeholder.7,,,,choice_4
+story_wt.2-1,u_story_wt.30,st-2-1-3,TEXT,stakeholder.7,Smile-Talk,attribute.0 = 1,attribute.1 + 50,"Sure, you know I’m always happy to help."
+story_wt.2-1,u_story_wt.31,st-2-1-3,TEXT,stakeholder.7,ConcernTalk,attribute.0 = 2,attribute.1 - 40,"He seems pretty interested, but I’m not sure if I share the same sentiment."
+story_wt.2-1,u_story_wt.32,st-2-1-5,TEXT,stakeholder.7,Talk,,,"Look, I’ve been with Galaxia Energy a long time, and I have to tell you this project is highly risky. You can’t just charge full steam ahead. I suggest you keep the scope small and be prepared to adapt quickly."
+story_wt.2-1,u_story_wt.33,st-2-1-6,TEXT,sh.player,,,,So how do you think the other team members will react to this? They’re all key stakeholders in this project.
+story_wt.2-1,u_story_wt.34,st-2-1-7,TEXT,stakeholder.7,Talk,,fact.1 = 1,"I’d say Anthony and Yuna are similar to me – practical and cautious. On the other hand Ken, Jane and Avi, they’ll be more inclined towards radical change. Everyone around here wants to see change but we come from different mindsets."
+story_wt.2-1,u_story_wt.35,st-2-1-8,TEXT,stakeholder.7,Talk,,fact.2 = 1,"As you know, I love to help others navigate our organization so please feel free to reach out anytime."
+story_wt.2-1,u_story_wt.36,st-2-1-9,TEXT,sh.player,,,,"Insights like these are very helpful and just what I need, Brittney. Thanks!"
+story_wt.2-1,u_story_wt.37,st-2-1-10,TEXT,stakeholder.7,Smile-Talk,,,"Great. I’ll see you in the meeting then. Meanwhile, stay out of trouble!"
+story_wt.2-1,u_story_wt.38,st-2-1-11,EVENT,,,coreAttr.1 = 0,,event.1
+story_wt.2-1,u_story_wt.39,st-2-1-12,SCENE,,,coreAttr.1 = 0,,scene.3
+story_wt.2-1,u_story_wt.40,st-2-1-13,MEETING,,,,,
